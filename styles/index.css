@@ -1,0 +1,69 @@
+.wrap {
+    width: 402px;
+    height: 874px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 0 auto;
+    background:url(../images/bg.png);
+}
+.wrap h1 {
+    text-align: center;
+    color: #ffbccd;
+    font-size: 1.5rem;
+    padding-top: 100px;
+}
+.wrap .title {
+/*     display: flex;
+    gap: 15px; */
+    padding-top: 20px;
+}
+.wrap .title .in {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+.wrap .title .in .iin {
+    border: 1px solid #ffbccd;
+}
+.wrap .title .in .iin:hover {
+    border: 3px solid #ffbccd ;
+}
+.wrap .in button {
+    border:1px solid #ffbccd;
+    border-radius: 30px;
+    padding: 0 10px;
+}
+.wrap button:hover {
+    background-color: #ffbccd;
+    transition:0.5s linear;
+}
+.wrap span:hover {
+    color: #fff;
+    transition:0.2s linear;
+}
+.wrap ul {
+    padding: 20px 0;
+    display:flex;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+.wrap ul li {
+    border-bottom: 1px solid #000;
+    width: 310px;
+    height: 35px;
+}
+.wrap ul li img {
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (min-width:600px){
+    .wrap h1 {
+        font-size: 2.5rem;
+    }
+    .wrap .in button {
+        padding: 0 30px;
+    }
+
+}
